@@ -8,7 +8,6 @@ public class Inscripcion {
 
     public Inscripcion(Alumno alumno, Materia ... materias) {
         this.alumno = alumno;
-
         this.materias = new ArrayList<Materia>();
         Collections.addAll(this.materias, materias);
     }
